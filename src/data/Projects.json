@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "title": "MIFS: Chat with Soundbyte",
+    "description": "MIFS is an audio-sharing social platform where users can listen, like, share, and upload audio of not more than 15 seconds. Be it a song, speech, or sound. Popular audios deducted based on their rankings, computed from last and current week likes, are displayed in the popular section of the application and they are cached by Redis. Both Node and Redis servers are running inside Docker containers.",
+    "image": "cattle-stray-mockup.jpg",
+    "tech": [
+      "React",
+      "Expo / React Native",
+      "Nestjs / Nodejs",
+      "Postgres",
+      "Redis",
+      "Docker"
+    ],
+    "action": [
+      {
+        "id": 1,
+        "title": "iOS",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "title": "Android",
+        "link": "https://play.google.com/store/apps/details?id=online.mifs"
+      },
+      {
+        "id": 3,
+        "title": "Website",
+        "link": "https://www.mifs.online/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Fixxi",
+    "description": "",
+    "image": "../images/cattle-stray-mockup.jpg",
+    "tech": [
+      "React",
+      "Expo / React Native",
+      "Nestjs / Nodejs",
+      "Postgres",
+      "Redis",
+      "Docker"
+    ],
+    "action": [
+      {
+        "id": 1,
+        "title": "iOS",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "title": "Android",
+        "link": "https://play.google.com/store/apps/details?id=online.mifs"
+      },
+      {
+        "id": 3,
+        "title": "Website",
+        "link": "https://www.mifs.online/"
+      }
+    ]
+  }
+]

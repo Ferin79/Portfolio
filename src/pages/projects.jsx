@@ -4,8 +4,13 @@ import classnames from "classnames";
 import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "../components/Navbar";
+import mifsMock from "../images/mifs.jpg";
+import fixxiMock from "../images/fixxi.jpg";
+import dockerMock from "../images/dockergen.png";
+import TurfMock from "../images/turf.svg";
 import ieltsMock from "../images/ielts-mockup.jpg";
 import cattleMock from "../images/cattle-stray-mockup.jpg";
+import valutionMock from "../images/valution.jpg";
 import gravityMock from "../images/gravity-mockup.jpg";
 import simulatorMock from "../images/simulator-mockup.jpg";
 import techfestMock from "../images/techfest-mockup.jpg";
@@ -39,6 +44,162 @@ const Projects = () => {
             {/* First Column */}
             {!isLoading && (
               <div className="column">
+                {/* Mifs */}
+
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  ref={(element) => {
+                    cardRef.current[0] = element;
+                  }}
+                  className={classnames("box", styles.boxSelector)}
+                >
+                  <figure className="image ">
+                    <img
+                      src={mifsMock}
+                      alt="Mifs"
+                      style={{ objectFit: "cover" }}
+                    />
+                  </figure>
+                  <h1 className="title is-5 mt-2">
+                    Mifs: Chat With Soundbytes
+                  </h1>
+                  <p className="my-3">
+                    MIFS is an audio-sharing social platform where users can
+                    listen, like, share, and upload audio of not more than 15
+                    seconds. Be it a song, speech, or sound.
+                  </p>
+                  <div className="tags">
+                    <span className="tag is-info is-light">React</span>
+                    <span className="tag is-info is-light">
+                      Expo / React Native
+                    </span>
+                    <span className="tag is-info is-light">
+                      Nestjs / Nodejs
+                    </span>
+                    <span className="tag is-info is-light">PostgreSQL</span>
+                    <span className="tag is-info is-light">Redis</span>
+                    <span className="tag is-info is-light">Docker</span>
+                  </div>
+
+                  <footer className="card-footer">
+                    <a
+                      href="https://apps.apple.com/us/app/mifs-chat-with-soundbytes/id1585981882"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="card-footer-item"
+                    >
+                      iOS
+                    </a>
+                    <a
+                      href="https://play.google.com/store/apps/details?id=online.mifs"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="card-footer-item"
+                    >
+                      Android
+                    </a>
+                    <a
+                      href="https://www.mifs.online/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="card-footer-item"
+                    >
+                      Website
+                    </a>
+                  </footer>
+                </div>
+
+                {/* Fixxi */}
+
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  ref={(element) => {
+                    cardRef.current[0] = element;
+                  }}
+                  className={classnames("box", styles.boxSelector)}
+                >
+                  <figure className="image">
+                    <img src={fixxiMock} alt="Fixxi" />
+                  </figure>
+                  <h1 className="title is-5 mt-2">Fixxi Repair</h1>
+                  <p className="my-3">
+                    Fixxi is a fix-it-all Mobile repair store located in
+                    Phoenix, US. The offline store is now a developed online
+                    application with the feature of pick and drop for its
+                    customers. I had contributed by developing the Admin Panel
+                    of the application.
+                  </p>
+                  <div className="tags">
+                    <span className="tag is-info is-light">React</span>
+                    <span className="tag is-info is-light">
+                      Expo / React Native
+                    </span>
+                    <span className="tag is-info is-light">
+                      Nestjs / Nodejs
+                    </span>
+                    <span className="tag is-info is-light">PostgreSQL</span>
+                    <span className="tag is-info is-light">Redis</span>
+                    <span className="tag is-info is-light">Docker</span>
+                  </div>
+
+                  <footer className="card-footer">
+                    <a
+                      href="https://apps.apple.com/us/app/fixxi-repair/id1584759103"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="card-footer-item"
+                    >
+                      iOS
+                    </a>
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.app.fixxi.repair"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="card-footer-item"
+                    >
+                      Android
+                    </a>
+                    <a
+                      href="https://fixxi.repair/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="card-footer-item"
+                    >
+                      Website
+                    </a>
+                  </footer>
+                </div>
+
+                {/* Valution */}
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  ref={(element) => {
+                    cardRef.current[0] = element;
+                  }}
+                  className={classnames("box", styles.boxSelector)}
+                >
+                  <figure className="image">
+                    <img src={valutionMock} alt="Fixxi" />
+                  </figure>
+                  <h1 className="title is-5 mt-2">Valution</h1>
+                  <p className="my-3">
+                    Valuation is the backend service developed using Node cron
+                    jobs scheduler that retrieves stock prices at certain time
+                    intervals and updates our databases with latest data.
+                  </p>
+                  <div className="tags">
+                    <span className="tag is-info is-light">
+                      Express / Nodejs
+                    </span>
+                    <span className="tag is-info is-light">MongoDB</span>
+                    <span className="tag is-info is-light">Cron Jobs</span>
+                  </div>
+                </div>
+
+                {/* IELTS */}
                 <div
                   data-aos="fade-up"
                   data-aos-duration="3000"
@@ -50,7 +211,13 @@ const Projects = () => {
                   <figure className="image ">
                     <img src={ieltsMock} alt="IELTS PREPS" />
                   </figure>
-                  <h1 className="subtitle mt-3">IELTS PREPS </h1>
+                  <h1 className="title is-5 mt-2">IELTS PREPS </h1>
+                  <p className="my-3">
+                    IELTS PREPS allows students to register under any institute
+                    and practice all four modules of IELTS exams. The
+                    application offers wide range of practice tests for each
+                    module of IELTS.
+                  </p>
                   <div className="tags">
                     <span className="tag is-info is-light">React.js</span>
                     <span className="tag is-info is-light">Firebase</span>
@@ -78,6 +245,7 @@ const Projects = () => {
                   </footer>
                 </div>
 
+                {/* Stray Cattle */}
                 <div
                   data-aos="fade-up"
                   data-aos-duration="3000"
@@ -89,7 +257,11 @@ const Projects = () => {
                   <figure className="image ">
                     <img src={cattleMock} alt="Cattle Stray" />
                   </figure>
-                  <h1 className="subtitle mt-3">Cattle Stray</h1>
+                  <h1 className="title is-5 mt-2">Cattle Stray</h1>
+                  <p className="my-3">
+                    This project creates a platform which coalesce the local
+                    people with Animal Husbandry,NGOs and Civic Forums
+                  </p>
                   <div className="tags">
                     <span className="tag is-info is-light">React.js</span>
                     <span className="tag is-info is-light">Firebase</span>
@@ -117,6 +289,8 @@ const Projects = () => {
                   </footer>
                 </div>
 
+                {/* Gravity */}
+
                 <div
                   data-aos="fade-up"
                   data-aos-duration="3000"
@@ -128,7 +302,7 @@ const Projects = () => {
                   <figure className="image ">
                     <img src={gravityMock} alt="Gravity Educatin" />
                   </figure>
-                  <h1 className="subtitle mt-3">Gravity Education</h1>
+                  <h1 className="title is-5 mt-2">Gravity Education</h1>
                   <div className="tags">
                     <span className="tag is-info is-light">React.js</span>
                     <span className="tag is-info is-light">PHP / Laravel</span>
@@ -153,42 +327,6 @@ const Projects = () => {
                       className="card-footer-item"
                     >
                       Play Store
-                    </a>
-                  </footer>
-                </div>
-
-                <div
-                  data-aos="fade-up"
-                  data-aos-duration="3000"
-                  ref={(element) => {
-                    cardRef.current[0] = element;
-                  }}
-                  className={classnames("box", styles.boxSelector)}
-                >
-                  <figure className="image ">
-                    <img src={simulatorMock} alt="Simulator 8085" />
-                  </figure>
-                  <h1 className="subtitle mt-3">Simulator 8085</h1>
-                  <div className="tags">
-                    <span className="tag is-info is-light">React.js</span>
-                  </div>
-
-                  <footer className="card-footer">
-                    <a
-                      href="https://github.com/Ferin79/Simulate8085"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="card-footer-item"
-                    >
-                      View on Github
-                    </a>
-                    <a
-                      href="https://ferin79.github.io/Simulate8085/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="card-footer-item"
-                    >
-                      Live Project
                     </a>
                   </footer>
                 </div>
@@ -225,6 +363,86 @@ const Projects = () => {
             {/* Third Column */}
             {!isLoading && (
               <div className="column">
+                {/* Docker gen */}
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  ref={(element) => {
+                    cardRef.current[0] = element;
+                  }}
+                  className={classnames("box", styles.boxSelector)}
+                >
+                  <figure className="image">
+                    <img src={dockerMock} alt="Docker Gen" />
+                  </figure>
+                  <h1 className="title is-5 mt-2">Docker Gen</h1>
+                  <p className="my-3">
+                    This module allows you to create Docker and Docker Compose
+                    files for your project.
+                  </p>
+                  <div className="tags">
+                    <span className="tag is-info is-light">Nodejs</span>
+                    <span className="tag is-info is-light">Docker</span>
+                    <span className="tag is-info is-light">Docker Compose</span>
+                  </div>
+
+                  <footer className="card-footer">
+                    <a
+                      href="https://github.com/Ferin79/docker-gen"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="card-footer-item"
+                    >
+                      View on Github
+                    </a>
+                    <a
+                      href="https://www.npmjs.com/package/docker-gen"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="card-footer-item"
+                    >
+                      NPM
+                    </a>
+                  </footer>
+                </div>
+
+                {/* Rebounce */}
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  ref={(element) => {
+                    cardRef.current[0] = element;
+                  }}
+                  className={classnames("box", styles.boxSelector)}
+                >
+                  <figure className="image">
+                    <img src={TurfMock} alt="Rebounce Turf" className="p-5" />
+                  </figure>
+                  <h1 className="title is-5 mt-2">Rebounce Turf</h1>
+                  <p className="my-3">
+                    Rebounce Turf is the online web app for turf booking that
+                    permits users to book their slots, make payments, and keep
+                    track of their refunds and previous bookings.
+                  </p>
+                  <div className="tags">
+                    <span className="tag is-info is-light">Reactjs</span>
+                    <span className="tag is-info is-light">Nodejs</span>
+                    <span className="tag is-info is-light">Stripe Payment</span>
+                  </div>
+
+                  <footer className="card-footer">
+                    <a
+                      href="https://turf.rebounce.in/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="card-footer-item"
+                    >
+                      Website
+                    </a>
+                  </footer>
+                </div>
+
+                {/* TechFest */}
                 <div
                   data-aos="fade-up"
                   data-aos-duration="3000"
@@ -236,7 +454,7 @@ const Projects = () => {
                   <figure className="image">
                     <img src={techfestMock} alt="TechFest 2020" />
                   </figure>
-                  <h1 className="subtitle mt-3">TechFest 2020</h1>
+                  <h1 className="title is-5 mt-2">TechFest 2020</h1>
                   <div className="tags">
                     <span className="tag is-info is-light">HTML</span>
                     <span className="tag is-info is-light">CSS</span>
@@ -263,6 +481,7 @@ const Projects = () => {
                   </footer>
                 </div>
 
+                {/* COVID-19 */}
                 <div
                   data-aos="fade-up"
                   data-aos-duration="3000"
@@ -274,7 +493,7 @@ const Projects = () => {
                   <figure className="image">
                     <img src={covidMock} alt="COVID-19" />
                   </figure>
-                  <h1 className="subtitle mt-3">COVID-19 Tracker</h1>
+                  <h1 className="title is-5 mt-2">COVID-19 Tracker</h1>
                   <div className="tags">
                     <span className="tag is-info is-light">HTML</span>
                     <span className="tag is-info is-light">CSS</span>
@@ -301,6 +520,7 @@ const Projects = () => {
                   </footer>
                 </div>
 
+                {/* Sorting */}
                 <div
                   data-aos="fade-up"
                   data-aos-duration="3000"
@@ -312,7 +532,7 @@ const Projects = () => {
                   <figure className="image">
                     <img src={sortingMock} alt="Sorting Visualizer" />
                   </figure>
-                  <h1 className="subtitle mt-3">Sorting Visualizer</h1>
+                  <h1 className="title is-5 mt-2">Sorting Visualizer</h1>
                   <div className="tags">
                     <span className="tag is-info is-light">React.js</span>
                   </div>
@@ -328,6 +548,44 @@ const Projects = () => {
                     </a>
                     <a
                       href="https://ferin79.github.io/sorting-visual/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="card-footer-item"
+                    >
+                      Live Project
+                    </a>
+                  </footer>
+                </div>
+
+                {/* 8085 */}
+
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  ref={(element) => {
+                    cardRef.current[0] = element;
+                  }}
+                  className={classnames("box", styles.boxSelector)}
+                >
+                  <figure className="image ">
+                    <img src={simulatorMock} alt="Simulator 8085" />
+                  </figure>
+                  <h1 className="title is-5 mt-2">Simulator 8085</h1>
+                  <div className="tags">
+                    <span className="tag is-info is-light">React.js</span>
+                  </div>
+
+                  <footer className="card-footer">
+                    <a
+                      href="https://github.com/Ferin79/Simulate8085"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="card-footer-item"
+                    >
+                      View on Github
+                    </a>
+                    <a
+                      href="https://ferin79.github.io/Simulate8085/"
                       target="_blank"
                       rel="noreferrer"
                       className="card-footer-item"
