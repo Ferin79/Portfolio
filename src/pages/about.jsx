@@ -89,19 +89,34 @@ const About = () => {
                 <h3 class="title">My Education</h3>
 
                 <aside class="menu">
-                  <p class="menu-label">Undergraduate</p>
+                  <p class="menu-label">Graduate</p>
                   <ul class="menu-list">
-                    <li>Bachelor of Engineering</li>
+                    <li>Masters of applied computer science</li>
                     <li>
                       <ul>
-                        <li className="m-2 is-size-5">Computer Engineering</li>
-                        <li className="m-2">9.39 CGPA</li>
-                        <li className="m-2">
-                          Gujarat Technological university
-                        </li>
+                        <li className="m-2">Jan 2022 - Present</li>
+                        <li className="m-2">Dalhousie Univerity, NS, Canada</li>
                       </ul>
                     </li>
                   </ul>
+
+                  <div className="my-5">
+                    <p class="menu-label">Undergraduate</p>
+                    <ul class="menu-list">
+                      <li>Bachelor of Engineering</li>
+                      <li>
+                        <ul>
+                          <li className="m-2 is-size-5">
+                            Computer Engineering
+                          </li>
+                          <li className="m-2">9.39 CGPA</li>
+                          <li className="m-2">
+                            Gujarat Technological university, GJ, India
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
 
                   <p class="menu-label mt-5">School</p>
                   <ul class="menu-list">
