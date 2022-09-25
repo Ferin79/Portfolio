@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4d7d26e5.chunk.css",
-    "main.js": "/Portfolio/static/js/main.9eeea7ac.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.9eeea7ac.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.604cd3d4.chunk.css",
+    "main.js": "/Portfolio/static/js/main.7a795a32.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.7a795a32.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.d5ddb33d.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d5ddb33d.js.map",
     "static/css/2.ec02d681.chunk.css": "/Portfolio/static/css/2.ec02d681.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.e53d882b.chunk.js.map": "/Portfolio/static/js/2.e53d882b.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/Portfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.4d7d26e5.chunk.css.map": "/Portfolio/static/css/main.4d7d26e5.chunk.css.map",
+    "static/css/main.604cd3d4.chunk.css.map": "/Portfolio/static/css/main.604cd3d4.chunk.css.map",
     "static/js/2.e53d882b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e53d882b.chunk.js.LICENSE.txt",
     "static/media/404.56c951f5.gif": "/Portfolio/static/media/404.56c951f5.gif",
     "static/media/cattle-stray-mockup.bcf6299f.jpg": "/Portfolio/static/media/cattle-stray-mockup.bcf6299f.jpg",
@@ -21,17 +21,17 @@
     "static/media/ielts-mockup.f01cb2aa.jpg": "/Portfolio/static/media/ielts-mockup.f01cb2aa.jpg",
     "static/media/mail.009a806b.gif": "/Portfolio/static/media/mail.009a806b.gif",
     "static/media/mifs.9ebf285e.jpg": "/Portfolio/static/media/mifs.9ebf285e.jpg",
-    "static/media/resume.b80cd758.pdf": "/Portfolio/static/media/resume.b80cd758.pdf",
+    "static/media/resume.cd53fa61.pdf": "/Portfolio/static/media/resume.cd53fa61.pdf",
     "static/media/simulator-mockup.73692320.jpg": "/Portfolio/static/media/simulator-mockup.73692320.jpg",
     "static/media/sorting-mockup.71a6f5a3.jpg": "/Portfolio/static/media/sorting-mockup.71a6f5a3.jpg",
     "static/media/techfest-mockup.0904ebc4.jpg": "/Portfolio/static/media/techfest-mockup.0904ebc4.jpg",
-    "static/media/turf.707812e4.svg": "/Portfolio/static/media/turf.707812e4.svg"
+    "static/media/turf.79320e60.svg": "/Portfolio/static/media/turf.79320e60.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d5ddb33d.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.e53d882b.chunk.js",
-    "static/css/main.4d7d26e5.chunk.css",
-    "static/js/main.9eeea7ac.chunk.js"
+    "static/css/main.604cd3d4.chunk.css",
+    "static/js/main.7a795a32.chunk.js"
   ]
 }
